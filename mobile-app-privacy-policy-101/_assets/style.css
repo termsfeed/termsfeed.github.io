@@ -1,0 +1,190 @@
+body {
+	background: #0053A7;
+	color: #FFF;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a {
+	color: #FFF;
+	text-decoration: underline;
+}
+a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.header {
+	margin: 20px 0 0 0;
+	background: url('header.jpg') no-repeat top center;
+	background-size: contain;
+	padding: 130px 0 0 0;
+	color: #FFF;
+    font-size: 26px;
+    line-height: 34px;
+	text-align: center;
+}
+.header h1 {
+	font-size: 30px;
+	line-height: 35px;
+}
+.header h1 a {
+	text-decoration: none;
+}
+.header h1 a:hover {
+	text-decoration: underline;
+}
+
+.page {
+	background: #f4f9fd;
+	padding: 40px 0;
+	margin: 40px 0 0 0;
+	color: #454954;
+}
+.page a {
+	color: #0053A7;
+	text-decoration: none;
+}
+.page a:hover {
+	text-decoration: underline;
+}
+
+.sections .section {
+	margin: 0 0 70px 0;
+}
+
+.sections .section .icon {
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+.sections .section .icon p {
+	margin: 0;
+	padding: 30px;
+	background: #eaeaea;
+	border: 5px solid #c2c2c2;
+	border-radius: 150px;
+	display: inline-block;
+}
+
+.sections .section .content {
+	position: relative;
+}
+
+.sections .number {
+	position: absolute;
+	top: 30px;
+	left: -130px;
+	font-size: 180px;
+	font-weight: 600;
+	line-height: 180px;
+	color: #0053A7;
+}
+.sections .section.two .number,
+.sections .section.three .number {
+	top: 60px;
+}
+@media (max-width: 991px) {
+	.sections .number {
+		display: none;
+	}
+}
+
+.sections .title {
+	text-align: center;
+	margin: 0 0 20px 0;
+	font-size: 30px;
+	line-height: 35px;
+}
+
+
+.sections .cta {
+	text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+	text-transform: uppercase;
+	margin: 30px 0 0 0;
+	position: relative;
+}
+.sections .cta:after {
+	content: '';
+	position: absolute;
+	top: 20px;
+	left: 0;
+	background: #FFF;
+	width: 100%;
+	height: 1px;
+}
+.sections .cta .btn {
+	position: relative;
+	z-index: 1;
+    font-size: 18px;
+    line-height: 28px;
+	padding: 5px 15px;
+	border: 0;
+	border-radius: 0;
+}
+.sections .one .cta:after {
+	background: #f9cf56;
+}
+.sections .one .cta .btn {
+	background: #f9cf56;
+	color: #0053A7;
+}
+.sections .two .cta:after {
+	background: #0053A7;
+}
+.sections .two .cta .btn {
+	background: #0053A7;
+	color: #FFF;
+}
+.sections .three .cta:after {
+	background: #454954;
+}
+.sections .three .cta .btn {
+	background: #454954;
+	color: #FFF;
+}
+
+.article h2 {
+	font-size: 30px;
+	line-height: 35px;
+	margin: 0 0 20px 0;
+}
+.article h3 {
+	margin: 40px 0 20px 0;
+}
+.article p,
+.article li {
+	font-size: 18px;
+	line-height: 28px;
+}
+.article p {
+	margin: 0 0 20px 0;
+}
+.article img {
+	border: 1px solid #c2c2c2;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.footer {
+	padding: 20px 0;
+	text-align: center;
+	color: #528ac3;
+}
+.footer a {
+	color: #528ac3;
+	text-decoration: none;
+}
+.footer .logo {
+    background: url('logo.png') no-repeat 0 0;
+    background-size: 161px 49px;
+    width: 161px;
+    height: 49px;
+    display: block;
+    text-indent: -9999px;
+    line-height: 0;
+    font-size: 0;
+    padding: 0;	
+	margin: 0 auto;
+}
